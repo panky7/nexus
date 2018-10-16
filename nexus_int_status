@@ -1,0 +1,1162 @@
+
+bash-3.2$ cat nexus_int_status
+hostname AQUICFDZEUSR1-01
+
+
+--------------------------------------------------------------------------------
+Port             Name            Status    Vlan      Duplex  Speed   Type
+--------------------------------------------------------------------------------
+mgmt0            --              connected routed    full    a-1000  --
+Eth1/1           <>To_ORI-A1_Te2 connected trunk     full    a-10G   10Gbase-SR
+Eth1/2           <*> AQUICFDZEUS disabled  trunk     auto    auto    10Gbase-SR
+Eth1/3           <*> AQUICFDZEUS disabled  trunk     auto    auto    10Gbase-SR
+Eth1/4           <*> AQUICLSZEUS connected trunk     full    10G     10Gbase-SR
+Eth1/5           <*> AQUICLSZEUS connected trunk     full    10G     10Gbase-SR
+Eth1/6           <*> AQUICLSZEUS connected trunk     full    10G     10Gbase-SR
+Eth1/7           <*> AQUICLSZEUS connected trunk     full    10G     10Gbase-SR
+Eth1/8           <> To_AQUIZEUSR connected trunk     full    a-10G   10Gbase-SR
+Eth1/9           <> To_AQUIZEUSR connected trunk     full    a-10G   10Gbase-SR
+Eth1/10          SIGMA_IDS _AQUI connected 1         full    a-10G   10Gbase-SR
+Eth1/11          SIGMA_IDS _AQUI connected 1         full    a-10G   10Gbase-SR
+Eth1/12          SIGMA_IDS _AQUI connected 1         full    a-10G   10Gbase-SR
+Eth1/13          <*> AQUIR1-MKTP connected trunk     full    a-10G   10Gbase-SR
+Eth1/14          <*> AQUIR1-MKTP connected trunk     full    a-10G   10Gbase-SR
+Eth1/15          --              sfpAbsent routed    auto    auto    --
+Eth1/16          --              sfpAbsent routed    auto    auto    --
+Eth1/17          <*> AQUICFDZEUS disabled  trunk     auto    auto    10Gbase-SR
+Eth1/18          <*> AQUICFDZEUS disabled  trunk     auto    auto    10Gbase-SR
+Eth1/19          --              sfpAbsent routed    auto    auto    --
+Eth1/20          --              sfpAbsent routed    auto    auto    --
+Eth1/21          --              sfpAbsent routed    auto    auto    --
+Eth1/22          --              disabled  routed    auto    auto    10Gbase-SR
+Eth1/23          --              disabled  routed    auto    auto    10Gbase-SR
+Eth1/24          --              disabled  routed    auto    auto    1000base-SX
+Eth1/25          --              sfpAbsent routed    auto    auto    --
+Eth1/26          --              sfpAbsent routed    auto    auto    --
+Eth1/27          --              sfpAbsent routed    auto    auto    --
+Eth1/28          --              sfpAbsent routed    auto    auto    --
+Eth1/29          --              sfpAbsent routed    auto    auto    --
+Eth1/30          --              sfpAbsent routed    auto    auto    --
+Eth1/31          --              sfpAbsent routed    auto    auto    --
+Eth1/32          --              sfpAbsent routed    auto    auto    --
+Eth1/33          --              sfpAbsent routed    auto    auto    --
+Eth1/34          --              sfpAbsent routed    auto    auto    --
+Eth1/35          --              sfpAbsent routed    auto    auto    --
+Eth1/36          --              sfpAbsent routed    auto    auto    --
+Eth1/37          --              sfpAbsent routed    auto    auto    --
+Eth1/38          --              sfpAbsent routed    auto    auto    --
+Eth1/39          --              sfpAbsent routed    auto    auto    --
+Eth1/40          --              sfpAbsent routed    auto    auto    --
+Eth1/41          --              sfpAbsent routed    auto    auto    --
+Eth1/42          --              sfpAbsent routed    auto    auto    --
+Eth1/43          --              sfpAbsent routed    auto    auto    --
+Eth1/44          --              sfpAbsent routed    auto    auto    --
+Eth1/45          --              sfpAbsent routed    auto    auto    --
+Eth1/46          --              sfpAbsent routed    auto    auto    --
+Eth1/47          --              sfpAbsent routed    auto    auto    --
+Eth1/48          --              disabled  routed    auto    auto    10Gbase-SR
+Eth2/1           <*> AQUICFDZEUS connected trunk     full    40G     QSFP+ BiDi
+Eth2/2           RESERVED_FUTUR_ disabled  routed    auto    auto    QSFP+ BiDi
+Eth2/3           RESERVED        xcvrAbsen routed    auto    auto    --
+Eth2/4           RESERVED        xcvrAbsen routed    auto    auto    --
+Eth2/5           <*> AQUICLSZEUS connected trunk     full    40G     QSFP+ BiDi
+Eth2/6           <*> AQUICLSZEUS connected trunk     full    40G     QSFP+ BiDi
+Eth5/1           <*> AQUICFDZEUS connected trunk     full    40G     QSFP+ BiDi
+Eth5/2           RESERVED_FUTUR_ xcvrAbsen routed    auto    auto    --
+Eth5/3           --              xcvrAbsen routed    auto    auto    --
+Eth5/4           --              xcvrAbsen routed    auto    auto    --
+Eth5/5           --              xcvrAbsen routed    auto    auto    --
+Eth5/6           --              xcvrAbsen routed    auto    auto    --
+Po10             <*> AQUICFDZEUS disabled  trunk     auto    auto    --
+Po11             <*> AQUICFDZEUS connected trunk     full    40G     --
+Po54             <*> AQUICLSZEUS connected trunk     full    40G     --
+Po55             --              noOperMem routed    auto    auto    --
+Po64             <*> AQUIR1-MKTP connected trunk     full    a-10G   --
+Po80             SIGMA_IDS _AQUI connected 1         full    a-10G   --
+Po81             --              noOperMem routed    auto    auto    --
+Po4090           <*> AQUICLSZEUS connected trunk     full    10G     --
+Po4091           --              noOperMem routed    auto    auto    --
+Po4094           <*> AQUICLSZEUS connected trunk     full    10G     --
+Po4095           --              noOperMem routed    auto    auto    --
+Lo37             --              connected routed    auto    auto    --
+Lo42             --              connected routed    auto    auto    --
+Lo53             --              connected routed    auto    auto    --
+Lo90             LBK_MULTICAST_R connected routed    auto    auto    --
+Vlan1         --                 down      routed    auto    auto    --
+Vlan10        --                 connected routed    auto    auto    --
+Vlan11        --                 connected routed    auto    auto    --
+Vlan12        --                 connected routed    auto    auto    --
+Vlan15        --                 connected routed    auto    auto    --
+Vlan16        --                 connected routed    auto    auto    --
+Vlan17        --                 connected routed    auto    auto    --
+Vlan18        --                 connected routed    auto    auto    --
+Vlan19        --                 connected routed    auto    auto    --
+Vlan20        ADMIN_NAS          connected routed    auto    auto    --
+Vlan22        PZEUS_NonRouted_An down      routed    auto    auto    --
+Vlan23        PZEUS_STD_FO_VARON connected routed    auto    auto    --
+Vlan30        HDI_AGILE_MARK_AQU connected routed    auto    auto    --
+Vlan995       Int_Admin_NOOBA_IB connected routed    auto    auto    --
+Vlan2501      PRVSHAREDSERVICES_ connected routed    auto    auto    --
+Vlan2503      PRVSHAREDSERVICES_ connected routed    auto    auto    --
+Vlan3001      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3002      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3003      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3004      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3005      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3006      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3007      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3008      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3009      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3010      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3011      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3012      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3013      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3014      OUTSOURCING_GIMS-S connected routed    auto    auto    --
+Vlan3015      OUTSOURCING_GIMS-S connected routed    auto    auto    --
+Vlan3016      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3017      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3018      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3019      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3020      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3021      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3022      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3023      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3024      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3025      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3026      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3027      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3028      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3029      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3030      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3031      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3032      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3033      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3034      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3035      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3036      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3037      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3038      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3039      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3040      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3041      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3042      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3043      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3044      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3045      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3046      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3047      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3048      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3101      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3102      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3103      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3104      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3105      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3106      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3107      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3108      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3109      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3110      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3111      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3112      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3113      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3114      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3115      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3116      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3117      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3118      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3119      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3120      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3121      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3122      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3123      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3124      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3125      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3126      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3127      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3128      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3129      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3130      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3131      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3132      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3801      <> To_ORI-A1_Te2/5 connected routed    auto    auto    --
+Vlan3803      <> To_AQUIZEUSR1-0 connected routed    auto    auto    --
+Vlan3901      <> To_ORI-A1_Te2/5 connected routed    auto    auto    --
+Vlan3903      <> To_AQUICFDZEUSR connected routed    auto    auto    --
+
+hostname AQUICFDZEUSR1-02
+
+
+--------------------------------------------------------------------------------
+Port             Name            Status    Vlan      Duplex  Speed   Type
+--------------------------------------------------------------------------------
+mgmt0            --              connected routed    full    a-1000  --
+Eth1/1           <>To_ORI-A2_Te2 connected trunk     full    a-10G   10Gbase-SR
+Eth1/2           <*> AQUICFDZEUS disabled  trunk     auto    auto    10Gbase-SR
+Eth1/3           <*> AQUICFDZEUS disabled  trunk     auto    auto    10Gbase-SR
+Eth1/4           <*> AQUICLSZEUS connected trunk     full    10G     10Gbase-SR
+Eth1/5           <*> AQUICLSZEUS connected trunk     full    10G     10Gbase-SR
+Eth1/6           <*> AQUICLSZEUS connected trunk     full    10G     10Gbase-SR
+Eth1/7           <*> AQUICLSZEUS connected trunk     full    10G     10Gbase-SR
+Eth1/8           <> To_AQUIZEUSR connected trunk     full    a-10G   10Gbase-SR
+Eth1/9           <> To_AQUIZEUSR connected trunk     full    a-10G   10Gbase-SR
+Eth1/10          SIGMA_IDS _AQUI connected 1         full    a-10G   10Gbase-SR
+Eth1/11          SIGMA_IDS _AQUI connected 1         full    a-10G   10Gbase-SR
+Eth1/12          SIGMA_IDS _AQUI connected 1         full    a-10G   10Gbase-SR
+Eth1/13          <*> AQUIR1-MKTP connected trunk     full    a-10G   10Gbase-SR
+Eth1/14          <*> AQUIR1-MKTP connected trunk     full    a-10G   10Gbase-SR
+Eth1/15          --              sfpAbsent routed    auto    auto    --
+Eth1/16          --              sfpAbsent routed    auto    auto    --
+Eth1/17          <*> AQUICFDZEUS disabled  trunk     auto    auto    10Gbase-SR
+Eth1/18          <*> AQUICFDZEUS disabled  trunk     auto    auto    10Gbase-SR
+Eth1/19          --              sfpAbsent routed    auto    auto    --
+Eth1/20          --              sfpAbsent routed    auto    auto    --
+Eth1/21          --              sfpAbsent routed    auto    auto    --
+Eth1/22          --              disabled  routed    auto    auto    10Gbase-SR
+Eth1/23          --              disabled  routed    auto    auto    10Gbase-SR
+Eth1/24          --              disabled  routed    auto    auto    1000base-SX
+Eth1/25          --              disabled  routed    auto    auto    10Gbase-SR
+Eth1/26          --              disabled  routed    auto    auto    10Gbase-SR
+Eth1/27          --              sfpAbsent routed    auto    auto    --
+Eth1/28          --              sfpAbsent routed    auto    auto    --
+Eth1/29          --              sfpAbsent routed    auto    auto    --
+Eth1/30          --              sfpAbsent routed    auto    auto    --
+Eth1/31          --              sfpAbsent routed    auto    auto    --
+Eth1/32          --              sfpAbsent routed    auto    auto    --
+Eth1/33          --              sfpAbsent routed    auto    auto    --
+Eth1/34          --              sfpAbsent routed    auto    auto    --
+Eth1/35          --              sfpAbsent routed    auto    auto    --
+Eth1/36          --              sfpAbsent routed    auto    auto    --
+Eth1/37          --              sfpAbsent routed    auto    auto    --
+Eth1/38          --              sfpAbsent routed    auto    auto    --
+Eth1/39          --              sfpAbsent routed    auto    auto    --
+Eth1/40          --              sfpAbsent routed    auto    auto    --
+Eth1/41          --              sfpAbsent routed    auto    auto    --
+Eth1/42          --              sfpAbsent routed    auto    auto    --
+Eth1/43          --              sfpAbsent routed    auto    auto    --
+Eth1/44          --              sfpAbsent routed    auto    auto    --
+Eth1/45          --              sfpAbsent routed    auto    auto    --
+Eth1/46          --              sfpAbsent routed    auto    auto    --
+Eth1/47          --              sfpAbsent routed    auto    auto    --
+Eth1/48          --              disabled  routed    auto    auto    10Gbase-SR
+Eth2/1           <*> AQUICFDZEUS connected trunk     full    40G     QSFP+ BiDi
+Eth2/2           RESERVED_FUTUR_ disabled  routed    auto    auto    QSFP+ BiDi
+Eth2/3           RESERVED        xcvrAbsen routed    auto    auto    --
+Eth2/4           RESERVED        xcvrAbsen routed    auto    auto    --
+Eth2/5           <*> AQUICLSZEUS connected trunk     full    40G     QSFP+ BiDi
+Eth2/6           <*> AQUICLSZEUS connected trunk     full    40G     QSFP+ BiDi
+Eth5/1           <*> AQUICFDZEUS connected trunk     full    40G     QSFP+ BiDi
+Eth5/2           RESERVED_FUTUR_ xcvrAbsen routed    auto    auto    --
+Eth5/3           --              xcvrAbsen routed    auto    auto    --
+Eth5/4           --              xcvrAbsen routed    auto    auto    --
+Eth5/5           --              xcvrAbsen routed    auto    auto    --
+Eth5/6           --              xcvrAbsen routed    auto    auto    --
+Po10             --              disabled  trunk     auto    auto    --
+Po11             <*> AQUICFDZEUS connected trunk     full    40G     --
+Po55             <*> AQUICLSZEUS connected trunk     full    40G     --
+Po65             <*> AQUIR1-MKTP connected trunk     full    a-10G   --
+Po81             SIGMA_IDS _AQUI connected 1         full    a-10G   --
+Po4091           <*> AQUICLSZEUS connected trunk     full    10G     --
+Po4095           <*> AQUICLSZEUS connected trunk     full    10G     --
+Lo37             --              connected routed    auto    auto    --
+Lo42             --              connected routed    auto    auto    --
+Lo53             --              connected routed    auto    auto    --
+Lo90             LBK_MULTICAST_R connected routed    auto    auto    --
+Vlan1         --                 down      routed    auto    auto    --
+Vlan10        --                 connected routed    auto    auto    --
+Vlan11        --                 connected routed    auto    auto    --
+Vlan12        --                 connected routed    auto    auto    --
+Vlan15        --                 connected routed    auto    auto    --
+Vlan16        --                 connected routed    auto    auto    --
+Vlan17        --                 connected routed    auto    auto    --
+Vlan18        --                 connected routed    auto    auto    --
+Vlan19        --                 connected routed    auto    auto    --
+Vlan20        ADMIN_NAS          connected routed    auto    auto    --
+Vlan22        PZEUS_NonRouted_An down      routed    auto    auto    --
+Vlan23        PZEUS_STD_FO_VARON connected routed    auto    auto    --
+Vlan30        HDI_AGILE_MARK_DC2 connected routed    auto    auto    --
+Vlan995       Int_Admin_NOOBA_IB connected routed    auto    auto    --
+Vlan2502      PRVSHAREDSERVICES_ connected routed    auto    auto    --
+Vlan2503      PRVSHAREDSERVICES_ connected routed    auto    auto    --
+Vlan3001      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3002      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3003      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3004      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3005      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3006      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3007      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3008      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3009      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3010      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3011      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3012      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3013      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3014      OUTSOURCING_GIMS-S connected routed    auto    auto    --
+Vlan3015      OUTSOURCING_GIMS-S connected routed    auto    auto    --
+Vlan3016      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3017      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3018      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3019      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3020      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3021      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3022      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3023      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3024      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3025      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3026      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3027      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3028      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3029      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3030      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3031      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3032      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3033      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3034      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3035      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3036      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3037      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3038      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3039      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3040      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3041      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3042      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3043      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3044      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3045      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3046      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3047      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3048      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3101      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3102      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3103      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3104      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3105      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3106      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3107      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3108      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3109      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3110      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3111      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3112      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3113      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3114      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3115      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3116      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3117      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3118      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3119      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3120      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3121      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3122      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3123      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3124      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3125      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3126      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3127      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3128      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3129      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3130      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3131      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3132      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3802      <> To_ORI-A2_Te2/5 connected routed    auto    auto    --
+Vlan3803      <> To_AQUIZEUSR1-0 connected routed    auto    auto    --
+Vlan3902      <> To_ORI-A2_Te2/5 connected routed    auto    auto    --
+Vlan3903      <> To_AQUICFDZEUSR connected routed    auto    auto    --
+
+hostname DC2CFDZEUSA2-02
+
+
+--------------------------------------------------------------------------------
+Port             Name            Status    Vlan      Duplex  Speed   Type
+--------------------------------------------------------------------------------
+mgmt0            --              connected routed    full    a-1000  --
+Eth1/1           <*>FED_DC2-B1_T connected routed    full    10G     10Gbase-SR
+Eth1/1.990       FED_ADMIN_DC2-B connected routed    full    10G     10Gbase-SR
+Eth1/1.2133      FED_RDS_DC2-B1_ connected routed    full    10G     10Gbase-SR
+Eth1/1.2212      FED_RIX_DC2-B1_ connected routed    full    10G     10Gbase-SR
+Eth1/1.2490      FED_RVP_ETRALI_ connected routed    full    10G     10Gbase-SR
+Eth1/1.2501      FED_RVP_PRVSHAR connected routed    full    10G     10Gbase-SR
+Eth1/1.3801      FED_RVP_SHAREDS connected routed    full    10G     10Gbase-SR
+Eth1/1.3901      FED_RVP_RUS_DC2 connected routed    full    10G     10Gbase-SR
+Eth1/2           <*> DC2CFDZEUSA disabled  trunk     auto    auto    10Gbase-SR
+Eth1/3           <*> DC2CFDZEUSA disabled  trunk     auto    auto    10Gbase-SR
+Eth1/4           <*> DC2ZEUSA2-0 connected trunk     full    10G     10Gbase-SR
+Eth1/5           <*> DC2ZEUSA2-0 connected trunk     full    10G     10Gbase-SR
+Eth1/6           <*> DC2CLSZEUSA connected trunk     full    10G     10Gbase-SR
+Eth1/7           <*> DC2CLSZEUSA connected trunk     full    10G     10Gbase-SR
+Eth1/8           <*> DC2CLSZEUSB connected trunk     full    10G     10Gbase-SR
+Eth1/9           <*> DC2CLSZEUSB connected trunk     full    10G     10Gbase-SR
+Eth1/10          <*> DC2CLSZEUSB connected trunk     full    10G     10Gbase-SR
+Eth1/11          <*> DC2CLSZEUSB connected trunk     full    10G     10Gbase-SR
+Eth1/12          <*> DC2RETALMB1 connected 25        full    10G     10Gbase-SR
+Eth1/13          <*> DC2RtrTsmA1 connected trunk     full    10G     10Gbase-SR
+Eth1/14          SIGMA_DC2A4-MAT connected 1         full    10G     10Gbase-SR
+Eth1/15          RESERVER_SIGMA- connected 1         full    10G     10Gbase-SR
+Eth1/16          SIGMA_DC2A4-MAT connected 1         full    10G     10Gbase-SR
+Eth1/17          <*> DC2CFDZEUSA disabled  trunk     auto    auto    10Gbase-SR
+Eth1/18          <*> DC2CFDZEUSA disabled  trunk     auto    auto    10Gbase-SR
+Eth1/19          --              sfpAbsent routed    auto    auto    --
+Eth1/20          DC2A2-ZEUS-SDX- connected trunk     full    10G     10Gbase-SR
+Eth1/21          DC2A2-ZEUS-SDX- connected trunk     full    10G     10Gbase-SR
+Eth1/22          DC2A2-ZEUS-SDX- connected trunk     full    10G     10Gbase-SR
+Eth1/23          DC2A2-ZEUS-SDX- connected trunk     full    10G     10Gbase-SR
+Eth1/24          reservedByX0987 sfpAbsent routed    auto    auto    --
+Eth2/1           <*> DC2CFDZEUSA connected trunk     full    40G     QSFP+ BiDi
+Eth2/2           RESERVED_FUTUR_ disabled  routed    auto    auto    QSFP+ BiDi
+Eth2/3           RESERVED        xcvrAbsen routed    auto    auto    --
+Eth2/4           RESERVED        xcvrAbsen routed    auto    auto    --
+Eth2/5           <*> DC2CLSZEUSA connected trunk     full    40G     QSFP+ BiDi
+Eth2/6           <*> DC2CLSZEUSA connected trunk     full    40G     QSFP+ BiDi
+Eth2/7           <*> DC2CLSZEUSA connected trunk     full    40G     QSFP+ BiDi
+Eth2/8           <*> DC2CLSZEUSA connected trunk     full    40G     QSFP+ BiDi
+Eth2/9           RESERVED        xcvrAbsen routed    auto    auto    --
+Eth2/10          RESERVED        xcvrAbsen routed    auto    auto    --
+Eth2/11          <*> DC2CLSZEUSA connected trunk     full    40G     QSFP+ BiDi
+Eth2/12          <*> DC2CLSZEUSA connected trunk     full    40G     QSFP+ BiDi
+Eth3/1           <*> DC2CFDZEUSA err-disab trunk     auto    auto    QSFP+ BiDi
+Eth3/2           RESERVED_FUTUR_ disabled  routed    auto    auto    QSFP+ BiDi
+Eth3/3           --              xcvrAbsen routed    auto    auto    --
+Eth3/4           --              xcvrAbsen routed    auto    auto    --
+Eth3/5           --              xcvrAbsen routed    auto    auto    --
+Eth3/6           --              xcvrAbsen routed    auto    auto    --
+Eth3/7           --              xcvrAbsen routed    auto    auto    --
+Eth3/8           --              xcvrAbsen routed    auto    auto    --
+Eth3/9           --              xcvrAbsen routed    auto    auto    --
+Eth3/10          --              xcvrAbsen routed    auto    auto    --
+Eth3/11          --              xcvrAbsen routed    auto    auto    --
+Eth3/12          --              xcvrAbsen routed    auto    auto    --
+Po10             <*> DC2CFDZEUSA disabled  trunk     auto    auto    --
+Po11             <*> DC2CFDZEUSA connected trunk     full    40G     --
+Po52             <*> DC2CLSZEUSA connected trunk     full    10G     --
+Po54             <*> DC2CLSZEUSA connected trunk     full    40G     --
+Po56             <*> DC2CLSZEUSA connected trunk     full    40G     --
+Po70             DC2A2-ZEUS-SDX- connected trunk     full    10G     --
+Po71             DC2A2-ZEUS-SDX- connected trunk     full    10G     --
+Po202            <*> DC2CLSZEUSA connected trunk     full    40G     --
+Po4093           <*> DC2CLSZEUSB connected trunk     full    10G     --
+Po4094           --              noOperMem routed    auto    auto    --
+Po4095           <*> DC2CLSZEUSB connected trunk     full    10G     --
+Lo1              --              connected routed    auto    auto    --
+Lo2              --              connected routed    auto    auto    --
+Lo29             management_RVP_ connected routed    auto    auto    --
+Lo37             --              connected routed    auto    auto    --
+Lo42             --              connected routed    auto    auto    --
+Lo53             --              connected routed    auto    auto    --
+Lo90             LBK_MULTICAST_R connected routed    auto    auto    --
+Vlan1         --                 down      routed    auto    auto    --
+Vlan10        --                 connected routed    auto    auto    --
+Vlan11        --                 connected routed    auto    auto    --
+Vlan12        --                 connected routed    auto    auto    --
+Vlan15        --                 connected routed    auto    auto    --
+Vlan16        --                 connected routed    auto    auto    --
+Vlan17        --                 connected routed    auto    auto    --
+Vlan18        --                 connected routed    auto    auto    --
+Vlan19        --                 connected routed    auto    auto    --
+Vlan20        ADMIN_NAS          connected routed    auto    auto    --
+Vlan22        PZEUS_NonRouted_An down      routed    auto    auto    --
+Vlan23        PZEUS_STD_FO_VARON connected routed    auto    auto    --
+Vlan24        IPT-SRV            connected routed    auto    auto    --
+Vlan25        <> Vlan-Palantir   connected routed    auto    auto    --
+Vlan30        HDI_AGILE_MARK_DC2 connected routed    auto    auto    --
+Vlan51        SIPO-PHYSIQUE-PROD connected routed    auto    auto    --
+Vlan53        SIPO-PHYSIQUE-HOMO connected routed    auto    auto    --
+Vlan168       RLPIT-MULTICAST    connected routed    auto    auto    --
+Vlan995       NOOBA_Admin        connected routed    auto    auto    --
+Vlan1200      PZEUS_INTERCO_LB   connected routed    auto    auto    --
+Vlan1201      NS_INTERCO_HOMO    connected routed    auto    auto    --
+Vlan1202      CFD_NS_DISPATCH_PR connected routed    auto    auto    --
+Vlan1820      GW_SBC_DC2         connected routed    auto    auto    --
+Vlan2134      <*> FED_RDS_DC2CFD connected routed    auto    auto    --
+Vlan2214      <> RIX_To_DC2CFDZE connected routed    auto    auto    --
+Vlan2492      <> DC2CFDZEUSA3-02 connected routed    auto    auto    --
+Vlan2503      PRVSHAREDSERVICES_ connected routed    auto    auto    --
+Vlan3001      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3002      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3003      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3004      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3005      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3006      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3007      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3008      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3009      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3010      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3011      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3012      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3013      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3014      OUTSOURCING_GIMS-S connected routed    auto    auto    --
+Vlan3015      OUTSOURCING_GIMS-S connected routed    auto    auto    --
+Vlan3016      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3017      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3018      OUTSOURCING_SIOP-O connected routed    auto    auto    --
+Vlan3019      OUTSOURCING_SIOP-O connected routed    auto    auto    --
+Vlan3020      OUTSOURCING_SIOP-O connected routed    auto    auto    --
+Vlan3021      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3022      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3023      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3024      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3025      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3026      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3027      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3028      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3029      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3030      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3031      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3032      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3033      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3034      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3035      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3036      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3037      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3038      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3039      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3040      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3041      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3042      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3043      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3044      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3045      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3046      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3047      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3048      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3101      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3102      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3103      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3104      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3105      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3106      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3107      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3108      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3109      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3110      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3111      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3112      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3113      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3114      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3115      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3116      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3117      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3118      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3119      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3120      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3121      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3122      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3123      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3124      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3125      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3126      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3127      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3128      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3129      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3130      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3131      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3132      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3803      <> To_DC2ZEUSA2-02 connected routed    auto    auto    --
+Vlan3877      LAN_TSM_SHARED_SER connected routed    auto    auto    --
+Vlan3903      <> To_DC2CFDZEUSA2 connected routed    auto    auto    --
+
+hostname DC2CFDZEUSA3-02
+
+
+--------------------------------------------------------------------------------
+Port             Name            Status    Vlan      Duplex  Speed   Type
+--------------------------------------------------------------------------------
+mgmt0            --              connected routed    full    a-1000  --
+Eth1/1           <*>FED_DC2-B2_T connected routed    full    10G     10Gbase-SR
+Eth1/1.991       FED_ADMIN_DC2-B connected routed    full    10G     10Gbase-SR
+Eth1/1.2133      FED_RDS_DC2-B2_ connected routed    full    10G     10Gbase-SR
+Eth1/1.2213      FED_RIX_DC2-B2_ connected routed    full    10G     10Gbase-SR
+Eth1/1.2491      FED_RVP_ETRALI_ connected routed    full    10G     10Gbase-SR
+Eth1/1.2502      FED_RVP_PRVSHAR connected routed    full    10G     10Gbase-SR
+Eth1/1.3802      FED_RVP_SHAREDS connected routed    full    10G     10Gbase-SR
+Eth1/1.3902      FED_RVP_RUS_DC2 connected routed    full    10G     10Gbase-SR
+Eth1/2           <*> DC2CFDZEUSA disabled  trunk     auto    auto    10Gbase-SR
+Eth1/3           <*> DC2CFDZEUSA disabled  trunk     auto    auto    10Gbase-SR
+Eth1/4           <*> DC2ZEUSA2-0 connected trunk     full    10G     10Gbase-SR
+Eth1/5           <*> DC2ZEUSA2-0 connected trunk     full    10G     10Gbase-SR
+Eth1/6           <*> DC2CLSZEUSA connected trunk     full    10G     10Gbase-SR
+Eth1/7           <*> DC2CLSZEUSA connected trunk     full    10G     10Gbase-SR
+Eth1/8           <*> DC2CLSZEUSB connected trunk     full    10G     10Gbase-SR
+Eth1/9           <*> DC2CLSZEUSB connected trunk     full    10G     10Gbase-SR
+Eth1/10          <*> DC2CLSZEUSB connected trunk     full    10G     10Gbase-SR
+Eth1/11          <*> DC2CLSZEUSB connected trunk     full    10G     10Gbase-SR
+Eth1/12          <*> DC2RETALMB1 connected 25        full    10G     10Gbase-SR
+Eth1/13          DC2A1-TSM-CFD-0 connected trunk     full    10G     10Gbase-SR
+Eth1/14          RESERVER_SIGMA- connected 1         full    10G     10Gbase-SR
+Eth1/15          SIGMA_DC2A4-MAT connected 1         full    10G     10Gbase-SR
+Eth1/16          SIGMA_DC2A4-MAT connected 1         full    10G     10Gbase-SR
+Eth1/17          <*> DC2CFDZEUSA disabled  trunk     auto    auto    10Gbase-SR
+Eth1/18          <*> DC2CFDZEUSA disabled  trunk     auto    auto    10Gbase-SR
+Eth1/19          --              sfpAbsent routed    auto    auto    --
+Eth1/20          DC2A3-ZEUS-SDX- connected trunk     full    10G     10Gbase-SR
+Eth1/21          DC2A3-ZEUS-SDX- connected trunk     full    10G     10Gbase-SR
+Eth1/22          DC2A3-ZEUS-SDX- connected trunk     full    10G     10Gbase-SR
+Eth1/23          DC2A3-ZEUS-SDX- connected trunk     full    10G     10Gbase-SR
+Eth1/24          --              sfpAbsent routed    auto    auto    --
+Eth2/1           <*> DC2CFDZEUSA connected trunk     full    40G     QSFP+ BiDi
+Eth2/2           RESERVED_FUTUR_ disabled  routed    auto    auto    QSFP+ BiDi
+Eth2/3           RESERVED        xcvrAbsen routed    auto    auto    --
+Eth2/4           RESERVED        xcvrAbsen routed    auto    auto    --
+Eth2/5           <*> DC2CLSZEUSA connected trunk     full    40G     QSFP+ BiDi
+Eth2/6           <*> DC2CLSZEUSA connected trunk     full    40G     QSFP+ BiDi
+Eth2/7           <*> DC2CLSZEUSA connected trunk     full    40G     QSFP+ BiDi
+Eth2/8           <*> DC2CLSZEUSA connected trunk     full    40G     QSFP+ BiDi
+Eth2/9           RESERVED        xcvrAbsen routed    auto    auto    --
+Eth2/10          RESERVED        xcvrAbsen routed    auto    auto    --
+Eth2/11          <*> DC2CLSZEUSA connected trunk     full    40G     QSFP+ BiDi
+Eth2/12          <*> DC2CLSZEUSA connected trunk     full    40G     QSFP+ BiDi
+Eth3/1           <*> DC2CFDZEUSA notconnec trunk     auto    auto    QSFP+ BiDi
+Eth3/2           RESERVED_FUTUR_ disabled  routed    auto    auto    QSFP+ BiDi
+Eth3/3           --              xcvrAbsen routed    auto    auto    --
+Eth3/4           --              xcvrAbsen routed    auto    auto    --
+Eth3/5           --              xcvrAbsen routed    auto    auto    --
+Eth3/6           --              xcvrAbsen routed    auto    auto    --
+Eth3/7           --              xcvrAbsen routed    auto    auto    --
+Eth3/8           --              xcvrAbsen routed    auto    auto    --
+Eth3/9           --              xcvrAbsen routed    auto    auto    --
+Eth3/10          --              xcvrAbsen routed    auto    auto    --
+Eth3/11          --              xcvrAbsen routed    auto    auto    --
+Eth3/12          --              xcvrAbsen routed    auto    auto    --
+Po10             <*> DC2CFDZEUSA disabled  trunk     auto    auto    --
+Po11             <*> DC2CFDZEUSA connected trunk     full    40G     --
+Po53             DC2CLSZEUSA3-01 connected trunk     full    10G     --
+Po55             <*> DC2CLSZEUSA connected trunk     full    40G     --
+Po57             <*> DC2CLSZEUSA connected trunk     full    40G     --
+Po70             DC2A3-ZEUS-SDX- connected trunk     full    10G     --
+Po71             DC2A3-ZEUS-SDX- connected trunk     full    10G     --
+Po203            <*> DC2CLSZEUSA connected trunk     full    40G     --
+Po4092           <*> DC2CLSZEUSB connected trunk     full    10G     --
+Po4094           <*> DC2CLSZEUSB connected trunk     full    10G     --
+Lo1              --              connected routed    auto    auto    --
+Lo2              --              connected routed    auto    auto    --
+Lo29             management_RVP_ connected routed    auto    auto    --
+Lo37             --              connected routed    auto    auto    --
+Lo42             --              connected routed    auto    auto    --
+Lo53             --              connected routed    auto    auto    --
+Lo90             LBK_MULTICAST_R connected routed    auto    auto    --
+Vlan1         --                 down      routed    auto    auto    --
+Vlan10        --                 connected routed    auto    auto    --
+Vlan11        --                 connected routed    auto    auto    --
+Vlan12        --                 connected routed    auto    auto    --
+Vlan15        --                 connected routed    auto    auto    --
+Vlan16        --                 connected routed    auto    auto    --
+Vlan17        --                 connected routed    auto    auto    --
+Vlan18        --                 connected routed    auto    auto    --
+Vlan19        --                 connected routed    auto    auto    --
+Vlan20        ADMIN_NAS          connected routed    auto    auto    --
+Vlan22        PZEUS_NonRouted_An down      routed    auto    auto    --
+Vlan23        PZEUS_STD_FO_VARON connected routed    auto    auto    --
+Vlan24        IPT-SRV            connected routed    auto    auto    --
+Vlan25        <> Vlan-Palantir   connected routed    auto    auto    --
+Vlan30        HDI_AGILE_MARK_DC2 connected routed    auto    auto    --
+Vlan51        SIPO-PHYSIQUE-PROD connected routed    auto    auto    --
+Vlan53        SIPO-PHYSIQUE-HOMO connected routed    auto    auto    --
+Vlan168       RLPIT-MULTICAST    connected routed    auto    auto    --
+Vlan995       NOOBA_Admin        connected routed    auto    auto    --
+Vlan1200      PZEUS_INTERCO_LB   connected routed    auto    auto    --
+Vlan1201      NS_INTERCO_HOMO    connected routed    auto    auto    --
+Vlan1202      CFD_NS_DISPATCH_PR connected routed    auto    auto    --
+Vlan1820      GW_SBC_DC2         connected routed    auto    auto    --
+Vlan2134      DC2CFDZEUSA3-02    connected routed    auto    auto    --
+Vlan2214      <> RIX_To_DC2CFDZE connected routed    auto    auto    --
+Vlan2492      <> DC2CFDZEUSA3-02 connected routed    auto    auto    --
+Vlan2503      PRVSHAREDSERVICES_ connected routed    auto    auto    --
+Vlan3001      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3002      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3003      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3004      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3005      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3006      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3007      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3008      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3009      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3010      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3011      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3012      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3013      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3014      OUTSOURCING_GIMS-S connected routed    auto    auto    --
+Vlan3015      OUTSOURCING_GIMS-S connected routed    auto    auto    --
+Vlan3016      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3017      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3018      OUTSOURCING_SIOP-O connected routed    auto    auto    --
+Vlan3019      OUTSOURCING_SIOP-O connected routed    auto    auto    --
+Vlan3020      OUTSOURCING_SIOP-O connected routed    auto    auto    --
+Vlan3021      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3022      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3023      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3024      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3025      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3026      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3027      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3028      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3029      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3030      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3031      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3032      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3033      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3034      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3035      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3036      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3037      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3038      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3039      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3040      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3041      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3042      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3043      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3044      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3045      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3046      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3047      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3048      OUTSOURCING_PROVID connected routed    auto    auto    --
+Vlan3101      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3102      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3103      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3104      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3105      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3106      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3107      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3108      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3109      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3110      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3111      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3112      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3113      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3114      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3115      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3116      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3117      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3118      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3119      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3120      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3121      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3122      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3123      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3124      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3125      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3126      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3127      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3128      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3129      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3130      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3131      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3132      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3803      <> To_DC2ZEUSA2-01 connected routed    auto    auto    --
+Vlan3877      LAN_TSM_SHARED_SER connected routed    auto    auto    --
+Vlan3903      <> To_DC2CFDZEUSA2 connected routed    auto    auto    --
+
+hostname SC2CFDZEUSR1-03
+
+
+--------------------------------------------------------------------------------
+Port             Name            Status    Vlan      Duplex  Speed   Type
+--------------------------------------------------------------------------------
+mgmt0            --              connected routed    full    a-1000  --
+Eth1/1           FED_SC2-A1_Te0/ connected routed    full    a-10G   10Gbase-SR
+Eth1/1.1501      FED_ADMIN_SC2-A connected routed    full    a-10G   10Gbase-SR
+Eth1/1.2490      FED_RVP_ETRALI_ connected routed    full    a-10G   10Gbase-SR
+Eth1/1.2501      FED_RVP_PRVSHAR connected routed    full    a-10G   10Gbase-SR
+Eth1/1.3801      FED_PZEUS_SC2-A connected routed    full    a-10G   10Gbase-SR
+Eth1/1.3901      FED_RVP_RUS_SC2 connected routed    full    a-10G   10Gbase-SR
+Eth1/2           <> DontActive_m disabled  trunk     auto    auto    10Gbase-SR
+Eth1/3           <> DontActive_m disabled  trunk     auto    auto    10Gbase-SR
+Eth1/4           --              sfpAbsent routed    auto    auto    --
+Eth1/5           --              sfpAbsent routed    auto    auto    --
+Eth1/6           <*> SC2CLSZEUSR connected trunk     full    a-10G   10Gbase-SR
+Eth1/7           <*> SC2CLSZEUSR connected trunk     full    a-10G   10Gbase-SR
+Eth1/8           <> To_SC2ZEUSR1 connected trunk     full    a-10G   10Gbase-SR
+Eth1/9           <*> SC2CLSZEUSR connected trunk     full    a-10G   10Gbase-SR
+Eth1/10          <*> SC2CLSZEUSR connected trunk     full    a-10G   10Gbase-SR
+Eth1/11          <> To_SC2ZEUSR1 connected trunk     full    a-10G   10Gbase-SR
+Eth1/12          RESERVE RACCORD notconnec trunk     full    10G     10Gbase-SR
+Eth1/13          RESERVE RACCORD sfpAbsent routed    auto    auto    --
+Eth1/14          Sigma_IDS_SC2AS connected 1         full    a-10G   10Gbase-SR
+Eth1/15          Sigma_IDS_SC2AS connected 1         full    a-10G   10Gbase-SR
+Eth1/16          SC2CLSZEUSR1-05 sfpAbsent routed    auto    auto    --
+Eth1/17          SC2CLSZEUSR1-06 sfpAbsent routed    auto    auto    --
+Eth1/18          --              sfpAbsent routed    auto    auto    --
+Eth1/19          --              sfpAbsent routed    auto    auto    --
+Eth1/20          SC2ASV-ZEUS-SDX connected trunk     full    a-10G   10Gbase-SR
+Eth1/21          SC2ASV-ZEUS-SDX connected trunk     full    a-10G   10Gbase-SR
+Eth1/22          SC2ASV-ZEUS-SDX connected trunk     full    a-10G   10Gbase-SR
+Eth1/23          SC2ASV-ZEUS-SDX connected trunk     full    a-10G   10Gbase-SR
+Eth1/24          --              sfpAbsent routed    auto    auto    --
+Eth1/25          --              sfpAbsent routed    auto    auto    --
+Eth1/26          --              sfpAbsent routed    auto    auto    --
+Eth1/27          --              sfpAbsent routed    auto    auto    --
+Eth1/28          --              sfpAbsent routed    auto    auto    --
+Eth1/29          --              sfpAbsent routed    auto    auto    --
+Eth1/30          --              sfpAbsent routed    auto    auto    --
+Eth1/31          --              sfpAbsent routed    auto    auto    --
+Eth1/32          --              sfpAbsent routed    auto    auto    --
+Eth1/33          --              sfpAbsent routed    auto    auto    --
+Eth1/34          <*> SC2ASV-TSM- connected trunk     full    a-10G   10Gbase-SR
+Eth1/35          --              sfpAbsent routed    auto    auto    --
+Eth1/36          --              sfpAbsent routed    auto    auto    --
+Eth1/37          --              sfpAbsent routed    auto    auto    --
+Eth1/38          --              sfpAbsent routed    auto    auto    --
+Eth1/39          --              sfpAbsent routed    auto    auto    --
+Eth1/40          --              sfpAbsent routed    auto    auto    --
+Eth1/41          --              sfpAbsent routed    auto    auto    --
+Eth1/42          --              sfpAbsent routed    auto    auto    --
+Eth1/43          --              sfpAbsent routed    auto    auto    --
+Eth1/44          --              sfpAbsent routed    auto    auto    --
+Eth1/45          --              sfpAbsent routed    auto    auto    --
+Eth1/46          --              sfpAbsent routed    auto    auto    --
+Eth1/47          --              sfpAbsent routed    auto    auto    --
+Eth1/48          --              sfpAbsent routed    auto    auto    --
+Eth5/1           <*> SC2CFDZEUSR connected trunk     full    40G     QSFP+ BiDi
+Eth5/2           --              disabled  routed    auto    auto    QSFP+ BiDi
+Eth5/3           --              xcvrAbsen routed    auto    auto    --
+Eth5/4           --              xcvrAbsen routed    auto    auto    --
+Eth5/5           --              xcvrAbsen routed    auto    auto    --
+Eth5/6           --              xcvrAbsen routed    auto    auto    --
+Eth5/7           --              xcvrAbsen routed    auto    auto    --
+Eth5/8           --              xcvrAbsen routed    auto    auto    --
+Eth5/9           --              xcvrAbsen routed    auto    auto    --
+Eth5/10          --              xcvrAbsen routed    auto    auto    --
+Eth5/11          --              xcvrAbsen routed    auto    auto    --
+Eth5/12          --              xcvrAbsen routed    auto    auto    --
+Eth5/13          --              xcvrAbsen routed    auto    auto    --
+Eth5/14          --              xcvrAbsen routed    auto    auto    --
+Eth5/15          --              xcvrAbsen routed    auto    auto    --
+Eth5/16          --              xcvrAbsen routed    auto    auto    --
+Eth5/17          --              xcvrAbsen routed    auto    auto    --
+Eth5/18          --              xcvrAbsen routed    auto    auto    --
+Eth5/19          --              xcvrAbsen routed    auto    auto    --
+Eth5/20          --              xcvrAbsen routed    auto    auto    --
+Eth5/21          --              xcvrAbsen routed    auto    auto    --
+Eth5/22          --              xcvrAbsen routed    auto    auto    --
+Eth5/23          <*> SC2CLSZEUSR connected trunk     full    40G     QSFP+ BiDi
+Eth5/24          <*> SC2CLSZEUSR connected trunk     full    40G     QSFP+ BiDi
+Eth6/1           <> SC2CFDZEUSR1 connected trunk     full    40G     QSFP+ BiDi
+Eth6/2           --              disabled  routed    auto    auto    QSFP+ BiDi
+Eth6/3           --              xcvrAbsen routed    auto    auto    --
+Eth6/4           --              xcvrAbsen routed    auto    auto    --
+Eth6/5           --              xcvrAbsen routed    auto    auto    --
+Eth6/6           --              xcvrAbsen routed    auto    auto    --
+Eth6/7           --              xcvrAbsen routed    auto    auto    --
+Eth6/8           --              xcvrAbsen routed    auto    auto    --
+Eth6/9           --              xcvrAbsen routed    auto    auto    --
+Eth6/10          --              xcvrAbsen routed    auto    auto    --
+Eth6/11          --              xcvrAbsen routed    auto    auto    --
+Eth6/12          --              xcvrAbsen routed    auto    auto    --
+Eth6/13          --              xcvrAbsen routed    auto    auto    --
+Eth6/14          --              xcvrAbsen routed    auto    auto    --
+Eth6/15          --              xcvrAbsen routed    auto    auto    --
+Eth6/16          --              xcvrAbsen routed    auto    auto    --
+Eth6/17          --              xcvrAbsen routed    auto    auto    --
+Eth6/18          --              xcvrAbsen routed    auto    auto    --
+Eth6/19          --              xcvrAbsen routed    auto    auto    --
+Eth6/20          --              xcvrAbsen routed    auto    auto    --
+Eth6/21          --              xcvrAbsen routed    auto    auto    --
+Eth6/22          --              xcvrAbsen routed    auto    auto    --
+Eth6/23          --              disabled  routed    auto    auto    QSFP+ BiDi
+Eth6/24          --              disabled  routed    auto    auto    QSFP+ BiDi
+Po10             <> DontActive_m disabled  trunk     auto    auto    --
+Po11             <> SC2CFDZEUSR2 connected trunk     full    40G     --
+Po70             SC2ASV-ZEUS-SDX connected trunk     full    a-10G   --
+Po71             SC2ASV-ZEUS-SDX connected trunk     full    a-10G   --
+Po80             Sigma_IDS_SC2AS connected 1         full    a-10G   --
+Po4086           <*> SC2CLSZEUSR connected trunk     full    40G     --
+Po4089           <> To_SC2ZEUSR1 connected trunk     full    a-10G   --
+Po4090           <> To_SC2ZEUSR1 connected trunk     full    a-10G   --
+Po4092           <*>  SC2CLSZEUS connected trunk     full    a-10G   --
+Po4094           <*> SC2CLSZEUSR connected trunk     full    a-10G   --
+Lo29             management_RVP_ connected routed    auto    auto    --
+Lo53             --              connected routed    auto    auto    --
+Vlan1         --                 down      routed    auto    auto    --
+Vlan10        --                 connected routed    auto    auto    --
+Vlan11        --                 connected routed    auto    auto    --
+Vlan12        --                 connected routed    auto    auto    --
+Vlan15        --                 connected routed    auto    auto    --
+Vlan16        --                 connected routed    auto    auto    --
+Vlan17        --                 connected routed    auto    auto    --
+Vlan18        --                 connected routed    auto    auto    --
+Vlan19        --                 connected routed    auto    auto    --
+Vlan20        ADMIN_NAS_SC2      connected routed    auto    auto    --
+Vlan24        IPT-SRV            connected routed    auto    auto    --
+Vlan55        SIPO-PHYSIQUE-BACK connected routed    auto    auto    --
+Vlan1200      PZEUS_INTERCO_LB   connected routed    auto    auto    --
+Vlan1201      NS_INTERCO_HOMO    connected routed    auto    auto    --
+Vlan1202      CFD_NS_DISPATCH_PR connected routed    auto    auto    --
+Vlan1500      NOOBA_Admin_IB_SC2 connected routed    auto    auto    --
+Vlan1820      GW_SBC_DC2         connected routed    auto    auto    --
+Vlan2492      <> SC2CFDZEUSR2-04 connected routed    auto    auto    --
+Vlan2503      PRVSHAREDSERVICES_ connected routed    auto    auto    --
+Vlan3001      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3002      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3003      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3004      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3005      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3006      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3007      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3008      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3009      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3010      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3011      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3012      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3013      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3014      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3015      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3016      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3017      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3018      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3019      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3020      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3021      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3022      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3023      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3024      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3025      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3026      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3027      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3028      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3029      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3030      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3031      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3032      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3101      PAER_NDG_REBOUND   connected routed    auto    auto    --
+Vlan3102      PAE_Standard_BSC   connected routed    auto    auto    --
+Vlan3103      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3104      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3105      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3106      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3107      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3108      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3109      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3110      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3111      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3112      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3113      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3114      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3115      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3116      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3117      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3118      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3119      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3120      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3121      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3122      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3123      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3124      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3125      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3126      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3127      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3128      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3129      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3130      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3131      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3132      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3803      <> To_SC2ZEUSR1-02 connected routed    auto    auto    --
+Vlan3877      Lan_TSM_SHARED_SER connected routed    auto    auto    --
+Vlan3903      <> To_SC2CFDZEUSR1 connected routed    auto    auto    --
+
+hostname SC2CFDZEUSR2-04
+
+
+--------------------------------------------------------------------------------
+Port             Name            Status    Vlan      Duplex  Speed   Type
+--------------------------------------------------------------------------------
+mgmt0            --              connected routed    full    a-1000  --
+Eth1/1           FED_SC2-A2_Te0/ connected routed    full    a-10G   10Gbase-SR
+Eth1/1.1502      FED_ADMIN_SC2-A connected routed    full    a-10G   10Gbase-SR
+Eth1/1.2491      FED_RVP_ETRALI_ connected routed    full    a-10G   10Gbase-SR
+Eth1/1.2502      FED_RVP_PRVSHAR connected routed    full    a-10G   10Gbase-SR
+Eth1/1.3802      FED_PZEUS_SC2-A connected routed    full    a-10G   10Gbase-SR
+Eth1/1.3902      FED_RVP_RUS_SC2 connected routed    full    a-10G   10Gbase-SR
+Eth1/2           <> DontActive_m disabled  trunk     auto    auto    10Gbase-SR
+Eth1/3           <> DontActive_m disabled  trunk     auto    auto    10Gbase-SR
+Eth1/4           --              sfpAbsent routed    auto    auto    --
+Eth1/5           --              sfpAbsent routed    auto    auto    --
+Eth1/6           <*> SC2CLSZEUSR connected trunk     full    a-10G   10Gbase-SR
+Eth1/7           <*> SC2CLSZEUSR connected trunk     full    a-10G   10Gbase-SR
+Eth1/8           <> To_SC2ZEUSR1 connected trunk     full    a-10G   10Gbase-SR
+Eth1/9           <*> SC2CLSZEUSR connected trunk     full    a-10G   10Gbase-SR
+Eth1/10          <*> SC2CLSZEUSR connected trunk     full    a-10G   10Gbase-SR
+Eth1/11          <> To_SC2ZEUSR1 connected trunk     full    a-10G   10Gbase-SR
+Eth1/12          RESERVER RACCOR notconnec trunk     full    10G     10Gbase-SR
+Eth1/13          RESERVER RACCOR sfpAbsent routed    auto    auto    --
+Eth1/14          Sigma_IDS_SC2AS connected 1         full    a-10G   10Gbase-SR
+Eth1/15          Sigma_IDS_SC2AS connected 1         full    a-10G   10Gbase-SR
+Eth1/16          --              sfpAbsent routed    auto    auto    --
+Eth1/17          --              sfpAbsent routed    auto    auto    --
+Eth1/18          --              sfpAbsent routed    auto    auto    --
+Eth1/19          --              sfpAbsent routed    auto    auto    --
+Eth1/20          SC2BJV-ZEUS-SDX connected trunk     full    a-10G   10Gbase-SR
+Eth1/21          SC2BJV-ZEUS-SDX connected trunk     full    a-10G   10Gbase-SR
+Eth1/22          SC2BJV-ZEUS-SDX connected trunk     full    a-10G   10Gbase-SR
+Eth1/23          SC2BJV-ZEUS-SDX connected trunk     full    a-10G   10Gbase-SR
+Eth1/24          --              sfpAbsent routed    auto    auto    --
+Eth1/25          --              sfpAbsent routed    auto    auto    --
+Eth1/26          --              sfpAbsent routed    auto    auto    --
+Eth1/27          --              sfpAbsent routed    auto    auto    --
+Eth1/28          --              sfpAbsent routed    auto    auto    --
+Eth1/29          --              sfpAbsent routed    auto    auto    --
+Eth1/30          --              sfpAbsent routed    auto    auto    --
+Eth1/31          --              sfpAbsent routed    auto    auto    --
+Eth1/32          --              sfpAbsent routed    auto    auto    --
+Eth1/33          --              sfpAbsent routed    auto    auto    --
+Eth1/34          <*> SC2CLK-TSM- connected trunk     full    a-10G   10Gbase-SR
+Eth1/35          --              sfpAbsent routed    auto    auto    --
+Eth1/36          --              sfpAbsent routed    auto    auto    --
+Eth1/37          --              sfpAbsent routed    auto    auto    --
+Eth1/38          --              sfpAbsent routed    auto    auto    --
+Eth1/39          --              sfpAbsent routed    auto    auto    --
+Eth1/40          --              sfpAbsent routed    auto    auto    --
+Eth1/41          --              sfpAbsent routed    auto    auto    --
+Eth1/42          --              sfpAbsent routed    auto    auto    --
+Eth1/43          --              sfpAbsent routed    auto    auto    --
+Eth1/44          --              sfpAbsent routed    auto    auto    --
+Eth1/45          --              sfpAbsent routed    auto    auto    --
+Eth1/46          --              sfpAbsent routed    auto    auto    --
+Eth1/47          --              sfpAbsent routed    auto    auto    --
+Eth1/48          --              sfpAbsent routed    auto    auto    --
+Eth5/1           <*> SC2CFDZEUSR connected trunk     full    40G     QSFP+ BiDi
+Eth5/2           --              disabled  routed    auto    auto    QSFP+ BiDi
+Eth5/3           --              xcvrAbsen routed    auto    auto    --
+Eth5/4           --              xcvrAbsen routed    auto    auto    --
+Eth5/5           --              xcvrAbsen routed    auto    auto    --
+Eth5/6           --              xcvrAbsen routed    auto    auto    --
+Eth5/7           --              xcvrAbsen routed    auto    auto    --
+Eth5/8           --              xcvrAbsen routed    auto    auto    --
+Eth5/9           --              xcvrAbsen routed    auto    auto    --
+Eth5/10          --              xcvrAbsen routed    auto    auto    --
+Eth5/11          --              xcvrAbsen routed    auto    auto    --
+Eth5/12          --              xcvrAbsen routed    auto    auto    --
+Eth5/13          --              xcvrAbsen routed    auto    auto    --
+Eth5/14          --              xcvrAbsen routed    auto    auto    --
+Eth5/15          --              xcvrAbsen routed    auto    auto    --
+Eth5/16          --              xcvrAbsen routed    auto    auto    --
+Eth5/17          --              xcvrAbsen routed    auto    auto    --
+Eth5/18          --              xcvrAbsen routed    auto    auto    --
+Eth5/19          --              xcvrAbsen routed    auto    auto    --
+Eth5/20          --              xcvrAbsen routed    auto    auto    --
+Eth5/21          --              xcvrAbsen routed    auto    auto    --
+Eth5/22          --              xcvrAbsen routed    auto    auto    --
+Eth5/23          <*> SC2CLSZEUSR connected trunk     full    40G     QSFP+ BiDi
+Eth5/24          <*> SC2CLSZEUSR connected trunk     full    40G     QSFP+ BiDi
+Eth6/1           <> SC2CFDZEUSR1 connected trunk     full    40G     QSFP+ BiDi
+Eth6/2           --              disabled  routed    auto    auto    QSFP+ BiDi
+Eth6/3           --              xcvrAbsen routed    auto    auto    --
+Eth6/4           --              xcvrAbsen routed    auto    auto    --
+Eth6/5           --              xcvrAbsen routed    auto    auto    --
+Eth6/6           --              xcvrAbsen routed    auto    auto    --
+Eth6/7           --              xcvrAbsen routed    auto    auto    --
+Eth6/8           --              xcvrAbsen routed    auto    auto    --
+Eth6/9           --              xcvrAbsen routed    auto    auto    --
+Eth6/10          --              xcvrAbsen routed    auto    auto    --
+Eth6/11          --              xcvrAbsen routed    auto    auto    --
+Eth6/12          --              xcvrAbsen routed    auto    auto    --
+Eth6/13          --              xcvrAbsen routed    auto    auto    --
+Eth6/14          --              xcvrAbsen routed    auto    auto    --
+Eth6/15          --              xcvrAbsen routed    auto    auto    --
+Eth6/16          --              xcvrAbsen routed    auto    auto    --
+Eth6/17          --              xcvrAbsen routed    auto    auto    --
+Eth6/18          --              xcvrAbsen routed    auto    auto    --
+Eth6/19          --              xcvrAbsen routed    auto    auto    --
+Eth6/20          --              xcvrAbsen routed    auto    auto    --
+Eth6/21          --              xcvrAbsen routed    auto    auto    --
+Eth6/22          --              xcvrAbsen routed    auto    auto    --
+Eth6/23          --              disabled  routed    auto    auto    QSFP+ BiDi
+Eth6/24          --              disabled  routed    auto    auto    QSFP+ BiDi
+Po10             <> DontActive_m disabled  trunk     auto    auto    --
+Po11             <> SC2CFDZEUSR1 connected trunk     full    40G     --
+Po70             SC2BJV-ZEUS-SDX connected trunk     full    a-10G   --
+Po71             SC2BJV-ZEUS-SDX connected trunk     full    a-10G   --
+Po81             Sigma_IDS_SC2AS connected 1         full    a-10G   --
+Po4087           <*> SC2CLSZEUSR connected trunk     full    40G     --
+Po4088           <> To_SC2ZEUSR1 connected trunk     full    a-10G   --
+Po4089           --              noOperMem routed    auto    auto    --
+Po4090           --              noOperMem routed    auto    auto    --
+Po4091           <> To_SC2ZEUSR1 connected trunk     full    a-10G   --
+Po4092           --              noOperMem routed    auto    auto    --
+Po4093           <*> SC2CLSZEUSR connected trunk     full    a-10G   --
+Po4094           --              noOperMem routed    auto    auto    --
+Po4095           <*> SC2CLSZEUSR connected trunk     full    a-10G   --
+Lo29             management_RVP_ connected routed    auto    auto    --
+Lo53             --              connected routed    auto    auto    --
+Vlan1         --                 down      routed    auto    auto    --
+Vlan10        --                 connected routed    auto    auto    --
+Vlan11        --                 connected routed    auto    auto    --
+Vlan12        --                 connected routed    auto    auto    --
+Vlan15        --                 connected routed    auto    auto    --
+Vlan16        --                 connected routed    auto    auto    --
+Vlan17        --                 connected routed    auto    auto    --
+Vlan18        --                 connected routed    auto    auto    --
+Vlan19        --                 connected routed    auto    auto    --
+Vlan20        ADMIN_NAS_SC2      connected routed    auto    auto    --
+Vlan24        IPT-SRV            connected routed    auto    auto    --
+Vlan55        SIPO-PHYSIQUE-BACK connected routed    auto    auto    --
+Vlan1200      PZEUS_INTERCO_LB   connected routed    auto    auto    --
+Vlan1201      NS_INTERCO_HOMO    connected routed    auto    auto    --
+Vlan1202      CFD_NS_DISPATCH_PR connected routed    auto    auto    --
+Vlan1500      NOOBA_Admin_IB_SC2 connected routed    auto    auto    --
+Vlan1820      GW_SBC_DC2         connected routed    auto    auto    --
+Vlan2492      <> SC2CFDZEUSR2-04 connected routed    auto    auto    --
+Vlan2503      PRVSHAREDSERVICES_ connected routed    auto    auto    --
+Vlan3001      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3002      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3003      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3004      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3005      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3006      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3007      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3008      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3009      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3010      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3011      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3012      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3013      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3014      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3015      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3016      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3017      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3018      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3019      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3020      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3021      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3022      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3023      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3024      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3025      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3026      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3027      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3028      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3029      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3030      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3031      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3032      OUTSOURCING_SERVIC connected routed    auto    auto    --
+Vlan3101      --                 connected routed    auto    auto    --
+Vlan3102      --                 connected routed    auto    auto    --
+Vlan3103      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3104      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3105      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3106      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3107      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3108      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3109      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3110      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3111      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3112      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3113      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3114      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3115      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3116      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3117      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3118      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3119      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3120      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3121      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3122      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3123      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3124      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3125      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3126      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3127      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3128      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3129      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3130      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3131      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3132      NDG_REBOUND_PROVID connected routed    auto    auto    --
+Vlan3803      <> To_SC2ZEUSR1-02 connected routed    auto    auto    --
+Vlan3877      Lan_TSM_SHARED_SER connected routed    auto    auto    --
+Vlan3903      <> To_SC2CFDZEUSR1 connected routed    auto    auto    --

@@ -1,0 +1,10 @@
+Value Filldown hostname (\S+)
+Value Filldown VRF (\S+)
+Value INTERFACE (.*?)
+Value IP_ADDRESS (\d+\.\d+\.\d+\.\d+)
+Value STATUS (.*)
+
+Start
+  ^hostname\s+${hostname}.*
+  ^IP Interface Status for VRF\s+${VRF}.*\"
+  ^${INTERFACE}\s+${IP_ADDRESS}\s+${STATUS}$$ -> Record
