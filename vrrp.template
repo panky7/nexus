@@ -10,6 +10,6 @@ Value MAC (.*)
 
 Start
   ^hostname\s+${hostname}.*
-  ^${VLAN} 
-  ^\s+Virtual IP address is ${IP}
-  ^\s+Virtual MAC address is ${MAC} -> Record
+  ^${VLAN}.* 
+  ^\s+Virtual IP address is ${IP}.*
+  ^\s+Virtual MAC address is ${MAC}.* -> Record

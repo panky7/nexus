@@ -3,7 +3,7 @@ Value Required INTERFACE (\S+)
 Value DESCRIPTION (.*)
 Value VRF (.*)
 Value IP_ADDRESS (\d+\.\d+\.\d+\.\d+\/\d+)
-Value DHCP (\d+\.\d+\.\d+\.\d+)
+
 
 
 
@@ -13,6 +13,5 @@ Start
   ^interface ${INTERFACE} 
   ^\s+description ${DESCRIPTION}
   ^\s+vrf member ${VRF}
-  ^\s+ip address ${IP_ADDRESS}
-  ^\s+ip dhcp relay address ${DHCP} -> Record
+  ^\s+ip address ${IP_ADDRESS} -> Record
 
