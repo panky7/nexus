@@ -5,20 +5,20 @@ import os
 import textfsm as textfsm
 
 # Load the input file to a variable
-input_file = open("/Users/JANINE/test123/int_brief")
+input_file = open("/Users/JANINE/nexus/int_brief")
 raw_text_data = input_file.read()
 input_file.close()
 
 # Run the text through the FSM. 
 # The argument 'template' is a file handle and 'raw_text_data' is a 
 # string with the content from the show_inventory.txt file
-template = open("/Users/JANINE/test123/int_brief.template")
+template = open("/Users/JANINE/nexus/int_brief.template")
 re_table = textfsm.TextFSM(template)
 fsm_results = re_table.ParseText(raw_text_data)
 
 # the results are written to a CSV file
 datestring = datetime.strftime(datetime.now(),'%Y%m%d%H%M%S')
-os.chdir(r'/Users/JANINE/test123')
+os.chdir(r'/Users/JANINE/nexus')
 outfile_name = open("nexus_int_brief.csv", "w+")
 outfile = outfile_name
 

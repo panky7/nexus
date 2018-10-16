@@ -1,0 +1,7 @@
+Value Filldown hostname (\S+)
+Value INTERFACE (\w+)
+Value RELAY_ADDRESS (\d+\.\d+\.\d+\.\d+)
+
+Start
+  ^hostname\s+${hostname}.*
+  ^\s${INTERFACE}\s+${RELAY_ADDRESS} -> Record
