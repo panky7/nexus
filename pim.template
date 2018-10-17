@@ -1,0 +1,16 @@
+Value Filldown hostname (\S+)
+Value Required INTERFACE (\S+)
+Value VRF (.*)
+Value IP_ADDRESS (\d+\.\d+\.\d+\.\d+\/\d+)
+Value PIM (.*)
+
+
+
+
+
+Start
+  ^hostname\s+${hostname}.*
+  ^interface ${INTERFACE} 
+  ^\s+vrf member ${VRF}
+  ^\s+ip address ${IP_ADDRESS} 
+  ^\s+ip pim ${PIM} -> Record
